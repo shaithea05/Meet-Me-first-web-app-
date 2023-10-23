@@ -1,0 +1,15 @@
+{
+  "name": "meet-me-first-web-app-",
+  "version": "1.0.0",
+  "description": "This is a simple \"Meet Me\" web application that I created using what I learned in my class, Web Application Development!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

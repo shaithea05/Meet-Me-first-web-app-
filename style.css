@@ -1,0 +1,253 @@
+/* colors the background of the webpage to be skyblue */
+body {
+    background-color: skyblue;
+    color:dodgerblue;
+    
+}
+
+/* this sets the size of the font for the navigation bar */
+nav { 
+    font-size: 30px;
+}
+
+/* this sets up the containers to hold the content within each row inn a table format*/
+.container {
+    display: table;
+    width:100%;
+}
+
+/* this displays the content of the columbs as a table cell w 5px of space in between*/
+.col {
+    display: table-cell;
+    padding: 5px;
+}
+
+/* this creates a color block and a border to hold the content of the header*/
+.heading {
+    background-color: lightblue;
+    /* justify-content: center; */
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    border: 5px solid dodgerblue;
+}
+
+/* this centers the text within the header */
+.heading h1 {
+    margin: 15;
+    text-align: center;
+    font-size: 115px;
+}
+
+/* this changes the color of the first line of the heading to have "Meet Me:" be a different color 
+than Shaithea A. Alam */
+.heading h1::first-line {
+    color:royalblue;
+}
+
+/* this formats the image to be round and have a border */
+.heading img {
+    /* max-width: 320px; */
+    /* height: 15%; */
+    /* float: right; */
+    max-width: 360px;
+    max-height: 360px;
+    border: 10px solid rgb(0, 150, 196);
+    border-radius: 50%;
+    
+}
+
+/* this colors the columns within the body of the web page to be pink and palevioletred */
+.mainSection {
+    background-color: pink;
+    color: palevioletred;
+    border: 5px solid palevioletred;
+}
+
+/* this creates a palevioletred border for the table on my webpage */
+#thirdCol #table, table, th, tr, td{
+    border: 2px solid;
+    color: palevioletred;
+}
+
+/* this icnreases the font size of the links to contact me */
+#links {
+    font-size: 30px;
+}
+
+/* this increases the font size of the paragraph text */
+p {
+    font-size: 25px;
+}
+
+/* this increases the font size of the bullet list text */
+ul {
+    font-size: 25px;
+}
+
+/* this increases the font size of the table text */
+table {
+    font-size: 25px;
+}
+
+/* this increases the font size of the text of the titles in the body of the webpage*/
+h3 {
+    font-size: 35px;
+    border: 5px dotted dodgerblue;
+    text-align: center;
+}
+
+/* this centeres the titles of each columns */
+h2 {
+    font-size: 30px;
+    text-align: center;
+    /* border: 5px dotted palevioletred; */
+    text-decoration: solid underline;
+}
+
+/* this makes it so that the footer is not covered by the contents of the middle of the webpage 
+and creates a color block around the content of the footer */
+footer {
+    background-color: lightblue;
+    display: block;
+    clear: both;
+}
+
+/* this enlargens the font size of the copyright 2023 at the bottom of the page */
+#copyright {
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+body {
+    background-color: skyblue;
+}
+
+label {
+    font-size: 3vw;
+    font-family: sans-serif;
+    color: magenta;
+    background-color: pink;
+    text-decoration: wavy underline;
+}
+
+h1 {
+    font-size: 6vw;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    background-color: lightblue;
+    text-decoration: dotted underline ;
+    text-align: center;
+    float: left;
+}
+
+h2 {
+    font-size: 5vw;
+    font-family: 'Times New Roman', Times, serif;
+    color: aquamarine;
+    background-color: green;
+    text-decoration: dotted underline ;
+    text-align: center;
+}
+
+h3 {
+    text-decoration: double underline;
+}
+
+a {
+    font-size: 3vw;
+    background-color: lightyellow;
+    color: yellowgreen;
+}
+
+p {
+    font-size: 2vw;
+    background-color: lightgray;
+    color: darkslategray;
+    text-indent: 25px;
+}
+
+img {
+    background-color: lightblue;
+    border-radius: 50%;
+    padding: 15px;
+    width: 30%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* display: block; */
+    /* border-color: lightpink; */
+    /* float:inline; */
+/* } */
+
+/*
+li {
+    font-size: 2vw;
+    background-color: lightblue;
+    color: blue;
+    padding-left: 25px;
+}
+
+table {
+    font-size: 3vw;
+    text-align: center;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    color:aqua;
+}
+*/
+
+/* ways to specify colors
+    h1{color:red;}
+    h2{color:rgb(128, 0, 196);};
+    h3{color:rgba:128, 0, 196, 0.5);}   a stands for alpha, which is the intensity of the colro (0 = clear/transparent, 1=opage)
+    h4{color: #FF8800;} */
+
+    

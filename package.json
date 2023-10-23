@@ -4,7 +4,7 @@
   "description": "This is a simple \"Meet Me\" web application that I created using what I learned in my class, Web Application Development!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "devStart": "nodemon index.js"
   },
   "keywords": [],
   "author": "",

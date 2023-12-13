@@ -108,8 +108,20 @@ p {
     padding: 2rem;
 }
 
-/* styling avocadoPainting */
+/* Styling avocadoPainting */
 #avocadoPainting {
+    max-width: 70%;
+    height: auto;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 2rem;
+}
+
+/* Styling impressionisMountain */
+#impressionisMountain {
     max-width: 70%;
     height: auto;
 
@@ -180,12 +192,26 @@ input[type=submit] {
     .row {
       flex-direction: column;
     }
-  }
+}
   
-  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-  @media screen and (max-width: 400px) {
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
     .navbar a {
       float: none;
       width: 100%;
     }
-  }
+}
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .row {
+      flex-direction: column;
+    }
+}
+  
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+}

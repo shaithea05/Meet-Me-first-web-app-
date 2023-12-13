@@ -32,4 +32,8 @@ router.get('/resume.ejs', (req, res) => {
     res.render('resume', { layout: 'layout'});
 });
 
+router.get('/contact.ejs',(req, res) => {
+    res.render('contact', { layout: 'layout'});
+});
+
 module.exports = router;

@@ -5,32 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/425408ad90.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./public/css/style">
-    <title>Layout</title>
+    <link rel='stylesheet' href="/css/style.css" type="text/css">
+    <title>Meet Me!</title>
 </head>
 
 <body>
     <header>
-        <nav id="navBar">
-            <a href="shaithea_alam.ejs">Home</a>
-            <a href="paintings.ejs">Paintings</a>
-            <a href="resume.ejs">Resume</a>
-        </nav>
+        <div class="header-right">
+        </div>
+        <div class="header-left">
+            <nav class="navbar">
+                <a id="title" href="/">Meet Me! Shaithea A. Alam</a>
+
+                <a class="right" href="paintings.ejs">Paintings</a>
+                <a class="right" href="resume.ejs">Resume</a>
+                <a class="right" href="shaithea_alam.ejs">Home</a>
+            </nav>
+        </div>
+        
     </header>
 
     <%- body%>
-
-    <footer>
-        <section class="links" class="socials">
-            <a href="www.linkedin.com/in/shaithea" class="fa-brands fa-linkedin"></a>
-            <a href="https://github.com/shaithea05" class="fa-brands fa-github"></a>
-            <a href="https://www.instagram.com/shaithea.a/?hl=en" class="fa-brands fa-instagram"></a>
-        </section>
-
-        <p>&copy 2023 Shaithea A. Alam. Cambridge, MA. All Rights Reserved.</p>
-        <p>Shaithea&trade & &copy 2024 Brandeis Univeristy</p>
+    <div class="links">
+        <a href="https://www.linkedin.com/in/shaithea" class="fa-brands fa-linkedin"></a>
+        <a href="https://github.com/shaithea05" class="fa-brands fa-github"></a>
+        <!-- <a href="https://www.instagram.com/shaithea.a/?hl=en" class="fa-brands fa-instagram"></a> -->
+    </div>
+    <footer class="footer">
+        <p id="bottomText">Shaithea&#8482 Cambridge, MA. &copy 2023 Shaithea A. Alam. All Rights Reserved. &copy 2024 Brandeis Univeristy</p>
     </footer>
-
 </body>
 
 </html>

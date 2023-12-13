@@ -7,7 +7,7 @@ Payne's Gray: #637081
 Payne's Gray (bluer): #536B78
 */
 
-/* coloring the body of the page */
+/* Coloring the body of the page */
 body {
     background-color: #CEE5F2;
 }
@@ -38,6 +38,7 @@ body {
     float: right; /* Float a link to the right */
 }
 
+/* Styling the h1 text in the navbar */
 .navbar h1 {
     float: left;
 }
@@ -48,13 +49,14 @@ body {
     color: black; /* Black text color */
 }
 
-/* colors the titles */
+/* Coloring the titles */
 h2 {
     background-color: #ACCBE1;
     color: #536B78;
     padding-left: 1rem;
 }
 
+/* Styling p */
 p {
     padding-left: 1rem;
 }

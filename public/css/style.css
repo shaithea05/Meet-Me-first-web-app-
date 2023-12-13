@@ -1,10 +1,19 @@
+/* 
+COLORS:
+Columbia Blue: #CEE5F2
+Columbia Blue (powder): #ACCBE1
+Air Superiority Blue: #7C98B3
+Payne's Gray: #637081
+Payne's Gray (bluer): #536B78
+*/
+
 /* coloring the body of the page */
 body {
     background-color: #CEE5F2;
 }
 
 #title {
-    background-color:  #536B78;
+    background-color: #536B78;
 }
 
 /* Style the top navigation bar */

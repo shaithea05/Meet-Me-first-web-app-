@@ -1,13 +1,16 @@
 <h2>Contact Me</h2>
 
 <div class="container">
-    <form method="post" action="contact-form-process.php">
-  
+    <!-- <form method="post" action="contact-form-process.php"> -->
+      <!-- <form onsubmit="sendEmail(); reset(); return false;"> -->
+    <form action="https://formsubmit.co/yellowketcham@gmail.com" method="POST" />
+
       <label for="name">Name</label>
-      <input type="text" id="name" name="name" placeholder="Your name..">
+      <input type="text" id="name" name="name" placeholder="Your name.." required>
   
       <label for="email">Email Address</label>
-      <input type="text" id="email" name="email" placeholder="Your email address..">
+      <!-- <input type="email" name="email" placeholder="Your email address.." required> -->
+      <input type="text" id="email" name="email" placeholder="Your email address.." required>
   
       <!-- <label for="country">Country</label>
       <select id="country" name="country">
@@ -16,11 +19,13 @@
         <option value="canada">Canada</option>
       </select> -->
   
+      <input type="hidden" name="_subject" value="New Contact Form Submission!">
       <label for="message">Message</label>
       <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
   
-      <button type="submit">Submit</button>
-      <!-- <input type="submit" value="Submit"> -->
+      <!-- <button type="submit">Submit</button> -->
+      <!-- <input type="hidden" name="_next" value="link to ty page"> -->
+      <input type="submit" value="Submit">
   
     </form>
   </div>

@@ -1,6 +1,21 @@
 const express = require("express");
 const router = express.Router();
 
+// module.exports = {
+//     respondWithShaitheaAlam: (req, res) => {
+//         res.render("shaithea_alam");
+//     },
+//     respondWithResume: (req, res) => {
+//         res.render("resume");
+//     },
+//     respondWithPaintings: (req, res) => {
+//         res.render("paintings");
+//     },
+//     respondWithContact: (req, res) => {
+//         res.render("contact");
+//     },
+// };
+
 router.get('/', (req, res) => {
     res.render('shaithea_alam', {layout : 'layout'});
 });
